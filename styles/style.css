@@ -27,7 +27,6 @@
 
 .navbar-left{
     width: 35%;
-    justify-content: space-evenly;
 }
 .navbar-rigth{
     width: 50%;
@@ -36,15 +35,17 @@
 
 .logo{
     width: 15%;
+    min-width: 65px;
 }
 
 
 .logo img{
+    padding-left: 20px;
     max-width: 75%;
     max-height: 80%;
 }
 
 .hospital-name{
-    
+    padding-left: 30px;
 }
 
