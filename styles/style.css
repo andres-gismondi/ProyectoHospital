@@ -17,6 +17,13 @@
     color: white;
 }
 
+.site{
+    min-height: 100vh;
+    flex-direction: column;
+}
+.main-body{
+    flex: 1;
+}
 .navbar{
     width: 100%;
     height: 64px;
@@ -32,20 +39,69 @@
     width: 50%;
     justify-content: flex-end;
 }
-
+.find{
+    width: 52%;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+.find:hover{
+    background-color: #e7879c;
+}
+.loggin{
+    width: 20%;
+}
+.loggin:hover{
+    background-color: #e7879c;
+}
 .logo{
     width: 15%;
     min-width: 65px;
 }
-
-
 .logo img{
     padding-left: 20px;
     max-width: 75%;
     max-height: 80%;
 }
-
 .hospital-name{
     padding-left: 30px;
+}
+.my-button{
+    text-decoration: none;
+}
+.enjoy-css {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+
+    border: 1px solid #b7b7b7;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  }
+
+.footer{
+    width: 100%;
+    height: 64px;
+    background-color: #d64161;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 50%;
+    padding-left: 25px;
+    justify-content: flex-start;
+}
+.footer-rigth{
+    width: 50%;
+    justify-content: flex-end;
 }
 
